@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./gallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Slab:wght@700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="gallery">
+      <header class="navbar2">
+        <img class="lm-icon" loading="lazy" alt="" src="./public/lh@2x.png" />
+
+        <img
+          class="menuops-icon"
+          loading="lazy"
+          alt=""
+          src="./public/menuops.svg"
+          id="menuops"
+        />
+      </header>
+      <main class="galeri">
+        <section class="favorit" id="favoritText">Favorit</section>
+        <section class="fav">
+          <img
+            class="bm-icon"
+            loading="lazy"
+            alt=""
+            src="./public/bm@2x.png"
+            id="bmImage"
+          />
+
+          <img
+            class="mm-icon"
+            loading="lazy"
+            alt=""
+            src="./public/mm@2x.png"
+            id="mmImage"
+          />
+
+          <img
+            class="bsjp-icon"
+            loading="lazy"
+            alt=""
+            src="./public/bsjp@2x.png"
+            id="bsjpImage"
+          />
+
+          <img
+            class="pm-icon"
+            loading="lazy"
+            alt=""
+            src="./public/pm@2x.png"
+            id="pmImage"
+          />
+        </section>
+        <section class="logo" id="logoText">Logo</section>
+        <section class="logo1">
+          <img
+            class="logo-child"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-14@2x.png"
+            id="rectangleImage"
+          />
+
+          <img
+            class="logo-item"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-15@2x.png"
+            id="rectangleImage1"
+          />
+
+          <img
+            class="logo-inner"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-16@2x.png"
+            id="rectangleImage2"
+          />
+
+          <img
+            class="rectangle-icon"
+            loading="lazy"
+            alt=""
+            src="./public/mm@2x.png"
+            id="rectangleImage3"
+          />
+        </section>
+        <section class="poster" id="posterText">Poster</section>
+        <section class="poster1">
+          <img
+            class="bm-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/bm@2x.png"
+            id="bmImage1"
+          />
+
+          <img
+            class="poster-child"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-15-1@2x.png"
+            id="rectangleImage4"
+          />
+
+          <img
+            class="poster-item"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-16-1@2x.png"
+            id="rectangleImage5"
+          />
+
+          <img
+            class="poster-inner"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-17-1@2x.png"
+            id="rectangleImage6"
+          />
+        </section>
+        <section class="social-media" id="socialMediaText">
+          Social Media
+        </section>
+        <section class="social-media1">
+          <img
+            class="social-media-child"
+            loading="lazy"
+            alt=""
+            src="./public/pm@2x.png"
+            id="rectangleImage7"
+          />
+
+          <img
+            class="social-media-item"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-15-2@2x.png"
+            id="rectangleImage8"
+          />
+
+          <img
+            class="social-media-inner"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-16-2@2x.png"
+            id="rectangleImage9"
+          />
+
+          <img
+            class="social-media-child1"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-17-2@2x.png"
+            id="rectangleImage10"
+          />
+        </section>
+        <footer class="footer1">
+          <div class="about-me-desc">
+            <div class="beranda" id="berandaText">Beranda</div>
+            <div class="tentang-saya" id="tentangSayaText">Tentang saya</div>
+            <div class="galeri1" id="galeriText">Galeri</div>
+          </div>
+          <img
+            class="violet-baju-3"
+            loading="lazy"
+            alt=""
+            src="./public/lh@2x.png"
+          />
+
+          <div class="sosmed-logo">
+            <img
+              class="instagram-icon"
+              loading="lazy"
+              alt=""
+              src="./public/instagram.svg"
+              id="instagram"
+            />
+
+            <img
+              class="facebook-icon"
+              loading="lazy"
+              alt=""
+              src="./public/facebook.svg"
+              id="facebook"
+            />
+
+            <img
+              class="whatsapp-icon"
+              loading="lazy"
+              alt=""
+              src="./public/whatsapp.svg"
+              id="whatsapp"
+            />
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script>
+      var menuops = document.getElementById("menuops");
+      if (menuops) {
+        menuops.addEventListener("click", function (e) {
+          window.location.href = "./menu-option.html";
+        });
+      }
+
+      var bmImage = document.getElementById("bmImage");
+      if (bmImage) {
+        bmImage.addEventListener("click", function (e) {
+          window.location.href = "./d-p.html";
+        });
+      }
+
+      var mmImage = document.getElementById("mmImage");
+      if (mmImage) {
+        mmImage.addEventListener("click", function (e) {
+          window.location.href = "./d-l3.html";
+        });
+      }
+
+      var bsjpImage = document.getElementById("bsjpImage");
+      if (bsjpImage) {
+        bsjpImage.addEventListener("click", function (e) {
+          window.location.href = "./d-b.html";
+        });
+      }
+
+      var pmImage = document.getElementById("pmImage");
+      if (pmImage) {
+        pmImage.addEventListener("click", function (e) {
+          window.location.href = "./d-f1.html";
+        });
+      }
+
+      var rectangleImage = document.getElementById("rectangleImage");
+      if (rectangleImage) {
+        rectangleImage.addEventListener("click", function (e) {
+          window.location.href = "./d-l2.html";
+        });
+      }
+
+      var rectangleImage1 = document.getElementById("rectangleImage1");
+      if (rectangleImage1) {
+        rectangleImage1.addEventListener("click", function (e) {
+          window.location.href = "./d-l1.html";
+        });
+      }
+
+      var rectangleImage2 = document.getElementById("rectangleImage2");
+      if (rectangleImage2) {
+        rectangleImage2.addEventListener("click", function (e) {
+          window.location.href = "./d-l.html";
+        });
+      }
+
+      var rectangleImage3 = document.getElementById("rectangleImage3");
+      if (rectangleImage3) {
+        rectangleImage3.addEventListener("click", function (e) {
+          window.location.href = "./d-l3.html";
+        });
+      }
+
+      var bmImage1 = document.getElementById("bmImage1");
+      if (bmImage1) {
+        bmImage1.addEventListener("click", function (e) {
+          window.location.href = "./d-p.html";
+        });
+      }
+
+      var rectangleImage4 = document.getElementById("rectangleImage4");
+      if (rectangleImage4) {
+        rectangleImage4.addEventListener("click", function (e) {
+          window.location.href = "./d-p1.html";
+        });
+      }
+
+      var rectangleImage5 = document.getElementById("rectangleImage5");
+      if (rectangleImage5) {
+        rectangleImage5.addEventListener("click", function (e) {
+          window.location.href = "./d-p2.html";
+        });
+      }
+
+      var rectangleImage6 = document.getElementById("rectangleImage6");
+      if (rectangleImage6) {
+        rectangleImage6.addEventListener("click", function (e) {
+          window.location.href = "./d-p3.html";
+        });
+      }
+
+      var rectangleImage7 = document.getElementById("rectangleImage7");
+      if (rectangleImage7) {
+        rectangleImage7.addEventListener("click", function (e) {
+          window.location.href = "./d-f1.html";
+        });
+      }
+
+      var rectangleImage8 = document.getElementById("rectangleImage8");
+      if (rectangleImage8) {
+        rectangleImage8.addEventListener("click", function (e) {
+          window.location.href = "./d-f2.html";
+        });
+      }
+
+      var rectangleImage9 = document.getElementById("rectangleImage9");
+      if (rectangleImage9) {
+        rectangleImage9.addEventListener("click", function (e) {
+          window.location.href = "./d-f3.html";
+        });
+      }
+
+      var rectangleImage10 = document.getElementById("rectangleImage10");
+      if (rectangleImage10) {
+        rectangleImage10.addEventListener("click", function (e) {
+          window.location.href = "./d-f.html";
+        });
+      }
+
+      var berandaText = document.getElementById("berandaText");
+      if (berandaText) {
+        berandaText.addEventListener("click", function (e) {
+          window.location.href = "./landing-page.html";
+        });
+      }
+
+      var tentangSayaText = document.getElementById("tentangSayaText");
+      if (tentangSayaText) {
+        tentangSayaText.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+
+      var galeriText = document.getElementById("galeriText");
+      if (galeriText) {
+        galeriText.addEventListener("click", function (e) {
+          window.location.href = "./gallery.html";
+        });
+      }
+
+      var instagram = document.getElementById("instagram");
+      if (instagram) {
+        instagram.addEventListener("click", function () {
+          window.open("instagram.com/violet.vision_");
+        });
+      }
+
+      var whatsapp = document.getElementById("whatsapp");
+      if (whatsapp) {
+        whatsapp.addEventListener("click", function () {
+          window.open("https://wa.link/za9bf9");
+        });
+      }
+
+      var facebook = document.getElementById("facebook");
+      if (facebook) {
+        facebook.addEventListener("click", function () {
+          window.open("https://www.facebook.com/hanssheep11");
+        });
+      }
+    </script>
+  </body>
+</html>

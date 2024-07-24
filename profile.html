@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Slab:wght@700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="profile">
+      <header class="navbar3">
+        <img class="lh-icon2" loading="lazy" alt="" src="./public/lh@2x.png" />
+
+        <div class="menuops-wrapper">
+          <img
+            class="menuops-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/menuops.svg"
+            id="menuops"
+          />
+        </div>
+      </header>
+      <section class="content">
+        <div class="inner-content">
+          <div class="pp1-parent">
+            <img
+              class="pp1-icon"
+              loading="lazy"
+              alt=""
+              src="./public/pp1@2x.png"
+            />
+
+            <img
+              class="pp2-icon"
+              loading="lazy"
+              alt=""
+              src="./public/pp2@2x.png"
+            />
+          </div>
+          <div class="d1">
+            <p class="tabik-perkenalkan-namaku">
+              Tabik perkenalkan namaku Raihan Nurhadi. Aku adalah seorang
+              Desainer Grafis muda yang ingin mencari banyak pengalaman. Mencari
+              pengalaman tidaklah mudah menurutku, jadi aku sangat terbuka dan
+              tertarik dengan banyak tawaran bekerja sama dari berbagai pihak.
+            </p>
+            <p class="aku-mengembangkan-kemampuan">
+              Aku mengembangkan kemampuan desain grafisku di dalam komunitas
+              yang ada di Kampusku, komunitas tersebut adalah Comma Design,
+              disini aku diajarkan beragam hal dalam mengembangkan diri dan
+              profesionalitas.
+            </p>
+            <p class="aku-diajarkan-dalam">
+              Aku diajarkan dalam membuat desain selain mengutamakan keindahan
+              dan estetika, desain yang dibuat harus sesuai dengan tujuan dari
+              desain tersebut dibuat.
+            </p>
+            <p class="aku-biasanya-mendesain">
+              Aku biasanya mendesain konten instagram, poster acara, banner
+              acara, logo, dan juga branding produk.
+            </p>
+            <p class="aku-biasanya-menggunakan">
+              Aku biasanya menggunakan Photoshop dan Illustrator dalam membuat
+              sebuah desain. Jika anda tertarik dalam bekerja sama denganku,
+              anda dapat menghubungiku lewat Whatsapp ataupun media sosial
+              kuuntuk berdiskusi lebih lanjut dengan menekan icon sosial media
+              dibawah.
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer2">
+        <div class="footer-content">
+          <div class="bmenu">
+            <div class="home">
+              <div class="beranda1" id="berandaText">Beranda</div>
+            </div>
+            <div class="tentang-saya1">
+              <div class="tentang-saya2" id="tentangSayaText">Tentang saya</div>
+            </div>
+            <div class="galeri2">
+              <div class="galeri3" id="galeriText">Galeri</div>
+            </div>
+          </div>
+        </div>
+        <img class="lf-icon" loading="lazy" alt="" src="./public/lh@2x.png" />
+
+        <div class="social-icons-wrapper">
+          <div class="social-icons">
+            <img
+              class="instagram-icon1"
+              loading="lazy"
+              alt=""
+              src="./public/instagram1.svg"
+              id="instagram"
+            />
+
+            <img
+              class="facebook-icon1"
+              loading="lazy"
+              alt=""
+              src="./public/facebook.svg"
+              id="facebook"
+            />
+
+            <img
+              class="whatsapp-icon1"
+              loading="lazy"
+              alt=""
+              src="./public/whatsapp.svg"
+              id="whatsapp"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var menuops = document.getElementById("menuops");
+      if (menuops) {
+        menuops.addEventListener("click", function (e) {
+          window.location.href = "./menu-option.html";
+        });
+      }
+
+      var berandaText = document.getElementById("berandaText");
+      if (berandaText) {
+        berandaText.addEventListener("click", function (e) {
+          window.location.href = "./landing-page.html";
+        });
+      }
+
+      var tentangSayaText = document.getElementById("tentangSayaText");
+      if (tentangSayaText) {
+        tentangSayaText.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+
+      var galeriText = document.getElementById("galeriText");
+      if (galeriText) {
+        galeriText.addEventListener("click", function (e) {
+          window.location.href = "./gallery.html";
+        });
+      }
+
+      var instagram = document.getElementById("instagram");
+      if (instagram) {
+        instagram.addEventListener("click", function () {
+          window.open("instagram.com/violet.vision_");
+        });
+      }
+
+      var whatsapp = document.getElementById("whatsapp");
+      if (whatsapp) {
+        whatsapp.addEventListener("click", function () {
+          window.open("https://wa.link/za9bf9");
+        });
+      }
+
+      var facebook = document.getElementById("facebook");
+      if (facebook) {
+        facebook.addEventListener("click", function () {
+          window.open("https://www.facebook.com/hanssheep11");
+        });
+      }
+    </script>
+  </body>
+</html>

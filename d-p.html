@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./d-p.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Slab:wght@700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dp">
+      <div class="frame-group">
+        <div class="rectangle-parent">
+          <img class="frame-child" alt="" src="./public/rectangle-18@2x.png" />
+
+          <div class="rectangle-group">
+            <img class="frame-item" alt="" src="./public/rectangle-19@2x.png" />
+
+            <img
+              class="frame-inner"
+              loading="lazy"
+              alt=""
+              src="./public/rectangle-20@2x.png"
+            />
+          </div>
+        </div>
+        <header class="navbar1">
+          <img class="lh-icon1" alt="" src="./public/lh@2x.png" />
+
+          <div class="back-container">
+            <img
+              class="back-icon1"
+              id="backIcon"
+              loading="lazy"
+              alt=""
+              src="./public/back.svg"
+            />
+          </div>
+        </header>
+      </div>
+      <section class="footer">
+        <div class="poster-ini-adalah">
+          Poster ini adalah sebuah projek tes dari komunitas yang saya jalani
+          yaitu Comma Design. Dalam pembuatan poster ini adalah poster pertama
+          yang saya buat pertama kali seorang diri tanpa sebuah grup atau
+          kelompok karena sebuah tes dari komunitas saya. Di poster ini saya
+          bertujuan membuat sebuah poster festival musik atau konser dari Band
+          asal jepang yaitu BABY METAL. Poster ini masuk ke dalam jenis Flat
+          Design dan Ilustrasi.
+        </div>
+      </section>
+    </div>
+    <script>
+      var backIcon = document.getElementById("backIcon");
+      if (backIcon) {
+        backIcon.addEventListener("click", function (e) {
+          window.history.back();
+        });
+      }
+    </script>
+  </body>
+</html>
